@@ -30,5 +30,36 @@
     <p>Your card was shared on social media!</p>
   </section>
 
-  </body>
+  <section id="application-form">
+    <h1>Job Application Form</h1>
+    <div class="container">
+    <form>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"><br>
+        <label for="position">Job Position:</label><br>
+        <select id="position">
+            <option value="" disabled selected>Select your position</option>
+            <option value="developer">Developer</option>
+            <option value="manager">Manager</option>
+            <option value="designer">Designer</option>
+        </select>
+        <fieldset class="radio-group">
+          <legend>Availability</legend>
+            <input type="radio" id="Full-Time" name="availability">
+            <label for="Full-Time">Full Time</label>
+            <input type="radio" id="Part-Time" name="availability">
+            <label for="Part-Time">Part Time</label>
+            <input type="radio" id="Contract" name="availability">
+            <label for="Contract">Contract</label>
+        </fieldset>
+        <label for="message">Why do you want this job?</label><br>
+        <textarea id="message">
+        </textarea><br>
+        <button type="submit">SUBMIT APPLICATION</button>
+      </form>
+    </dv>
+  </section>
+</body>
 </html>
